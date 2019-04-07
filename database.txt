@@ -1,0 +1,39 @@
+--  
+ -- Table structure for table `contact`  
+ --  
+ CREATE TABLE IF NOT EXISTS `contact` (  
+  `cnumber` int(11) NOT NULL,   
+  PRIMARY KEY (`cnumber`)  
+ )  CHARSET=latin1 ;  
+ --  
+ -- Dumping data for table `contact`  
+ --  
+ INSERT INTO `contact` (`cnumber') VALUES  
+ (1, '8989943999'),  
+ (2, '9179821992'),  
+ (3, '9685279333'),  
+ (4, '9876543216');  
+ -- --------------------------------------------------------  
+ --  
+ -- Table structure for table `user`  
+ --  
+ CREATE TABLE IF NOT EXISTS `user` (  
+  `unumber` int(11) NOT NULL AUTO_INCREMENT,  
+  `message` varchar(250) NOT NULL,  
+  `cnumber` int(11) NOT NULL,  
+  PRIMARY KEY (`unumber`)  
+ ) CHARSET=latin1 ;  
+ --  
+ -- Dumping data for table `user`  
+ --  
+ INSERT INTO `user` (`unumber`, `message`, `cnumber`) VALUES  
+ (8989898989, 'hello', 9179821992),  
+ (9898989898, 'hy', 9179821992),  
+ (9797979797, 'how are you', 9179821992),  
+ (7979797979, 'good morning', 8989943999),  
+ (9090909090, 'college off', 8989943999),  
+ (9696969696, 'gud evening', 8989943999),  
+ (9595959595, 'money deducted', 9685279333),  
+ (9494949494, 'bed time', 9685279333),  
+ (9999999999, 'go to market', 9876543216),  
+ (8888888888, 'call me', 9876543216);  
