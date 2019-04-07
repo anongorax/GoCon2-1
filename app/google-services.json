@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "724830252336",
+    "firebase_url": "https://gocon2.firebaseio.com",
+    "project_id": "gocon2",
+    "storage_bucket": "gocon2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724830252336:android:d7dabca42c251ffe",
+        "android_client_info": {
+          "package_name": "com.example.gocon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "724830252336-pjf3oiaq3u3es97rf67tmq9pht3lsjtn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gocon",
+            "certificate_hash": "f5fa9cfed1a6c57a16b564ef851710e0a58016ea"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCa6_CgANlDMga-zQe1XXlUH6OetnsrISo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "724830252336-3i1koqh5b72nbo77a097rvgaet6tf5lm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

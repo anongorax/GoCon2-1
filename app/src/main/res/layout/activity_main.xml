@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout_bckgrd"
+    tools:context="com.example.gocon.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etPhoneNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="CONTACT"
+            android:ems="10"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/editbackgrond"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/etMsg"
+            android:gravity="center"
+            android:hint="WRITE A MESSAGE"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:background="@drawable/editbackgrond"
+            android:inputType="textImeMultiLine" />
+
+        <Button
+            android:id="@+id/btnSendSms"
+            android:background="@drawable/btnshape"
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:elevation="10dp"
+            android:layout_height="wrap_content"
+            android:text="Send" />
+
+        <Button
+            android:id="@+id/btnReadSms"
+            android:elevation="10dp"
+            android:background="@drawable/btnshape"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Read"
+             />
+
+        <ListView
+            android:id="@+id/lv_sms"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
